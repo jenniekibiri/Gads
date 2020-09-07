@@ -1,4 +1,5 @@
 //variables
+const dotenv=require('dotenv').config()
 let temperature = document.getElementById('temperature')
 let rainDesc = document.getElementById('rainDescription')
 const icon = document.querySelector(".weather-icon")
@@ -22,6 +23,6 @@ fetch(api)
 
 
                rainDesc.textContent=data.weather[0].description
-                icon.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png"/>`;
+                icon.innerHTML = `<img  height='180px' width='200px' alt='weather icon' src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png"/>`;
            })
           

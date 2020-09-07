@@ -1,0 +1,22 @@
+{
+  "name": "gadweather",
+  "version": "1.0.0",
+  "description": "Sign up and get an API key (APPID) on your account page.\r use fetch or axios to call the api \r ## Example of the Api\r ``` `http://api.openweathermap.org/data/2.5/weather?q=Nyeri&appid=apikey` ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniekibiri/Gads.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniekibiri/Gads/issues"
+  },
+  "homepage": "https://github.com/jenniekibiri/Gads#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
