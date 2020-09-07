@@ -3,7 +3,8 @@ let temperature = document.getElementById('temperature')
 let rainDesc = document.getElementById('rainDescription')
 const icon = document.querySelector(".weather-icon")
 //call the apis and remember to add your api keys
-const api = `http://api.openweathermap.org/data/2.5/weather?q=Nyeri&appid=2a8705842347be34e28960ed24c50698`
+  const proxy ="https://cors-anywhere.herokuapp.com/";
+const api = `${proxy}http://api.openweathermap.org/data/2.5/weather?q=Nyeri&appid=2a8705842347be34e28960ed24c50698`
 fetch(api)
            .then(response=>{
                //the console will tell you the status of call
